@@ -1,0 +1,39 @@
+body{
+    background-color: #E5E5E5;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.name{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main{
+     
+}
+.player-description{
+    color: gray;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    
+}
+.card{
+    width: 280px;
+    height: 460px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+.player-thumnail img{
+    width: 277px;
+    height: 308px;
+   
+}
